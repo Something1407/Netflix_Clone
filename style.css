@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Martel Sans', 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(asssets/images/IN-en-20240108-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center center;
+    background-size: max(2000px, 100vw);
+    height: 100vh;
+    position: inherit;
+    background-repeat: no-repeat;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.64;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    padding: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85vw;
+    margin: auto;
+}
+
+nav span img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    position: relative;
+    height: calc(100% - 97px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sepration {
+    height: 13px;
+    width: 100vw;
+    background-color: #232323;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.6);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.489);
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    border-style: none;
+    padding: 10px 29px;
+    font-size: 23px;
+}
+
+.btn-red:hover,
+.btn-red-sm:hover {
+    background-color: rgb(193, 17, 25);
+    transition: all 0.1s ease-in-out;
+}
+
+.btn:hover {
+    border: 2px solid white;
+    transition: all 0.1s ease-in-out;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.main input {
+    padding: 16px 150px 16px 13px;
+    font-size: 15px;
+    background-color: rgba(23, 23, 23, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.488);
+    border-radius: 5px;
+    color: white;
+}
+
+input:hover {
+    border: 2px solid white;
+    transition: all 0.1s ease-in-out;
+}
+
+.main input::placeholder {
+    font-weight: bolder;
+}
+
+.btn-red-sm {
+    background-color: rgb(255, 0, 0);
+    border-style: none;
+    color: white;
+}
+
+.first {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+
+
+.secimg1 {
+    position: relative;
+}
+
+.secimg1 img {
+    width: 567px;
+    position: relative;
+    z-index: 1;
+}
+
+.secimg1 video {
+    position: absolute;
+    top: 86px;
+    right: 80px;
+    width: 412px;
+}
+
+.sectext1 div:first-child {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sectext1 div:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.secimg3 video {
+    top: 50px;
+    right: 102px;
+    width: 347px;
+}
+
+.faq {
+    color: white;
+    background-color: black;
+}
+
+.faq h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.faqbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px;
+    background-color: #2D2D2D;
+    color: white;
+    width: 68vw;
+    margin: 8px auto;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+    height: 36px;
+    width: 36px;
+}
+
+.login {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding: 42px 42px 13px 42px;
+}
+
+input {
+    padding: 16px 150px 16px 13px;
+    font-size: 15px;
+    background-color: rgba(23, 23, 23, 0.6);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.padding {
+    padding: 0px 0px 50px 0px;
+}
+
+.strangerbox {
+    width: 312px;
+    height: 103px;
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.374);
+    z-index: 2;
+    border-radius: 0.75rem;
+    position: relative;
+    top: -135px;
+    right: -120px;
+}
+
+.secsubimg img {
+    height: 80px;
+    width: 57px;
+    border-radius: 3px;
+    position: absolute;
+}
+
+.secsubimg {
+    padding: 10px;
+}
+
+.strangerbox div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.strangerbox div :nth-child(2) {
+    color: #0071eb;
+}
+
+.strangerbox div:nth-child(3) {
+    position: absolute;
+    top: 25px;
+    right: 18px;
+}
+
+.strangerbox div:nth-child(3) img {
+
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    max-width: 75vw;
+    margin: auto;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+}
+
+.question a {
+    color: #B3B3B3;
+    padding: 70px 0px 19px 0px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-items a {
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.last {
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lastdiv :first-child,
+.lastdiv :nth-child(2) {
+    margin: 15px 0px 6px 0px;
+}
+
+@media screen and (max-width: 1300px) {
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .info {
+        flex-wrap: wrap;
+
+    }
+
+    .secimg1 img {
+        width: 362px;
+    }
+
+    .secimg1 video {
+        top: 56px;
+        right: 39px;
+        width: 275px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+
+    .strangerbox {
+        width: 258px;
+        height: 72px;
+        top: -102px;
+        right: -45px;
+    }
+
+
+    .strangerbox div:nth-child(3) {
+        top: 9px;
+        right: 6px;
+    }
+
+    .strangerbox div:nth-child(2) {
+        font-size: 14px;
+        position: relative;
+        top: -6px;
+    }
+
+    .secimg3 video {
+        top: 33px;
+        right: 68px;
+        width: 223px;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    .secsubimg img {
+        position: absolute;
+        right: 200px;
+        height: 52px;
+        width: 48px;
+    }
+    .hero> :nth-child(1) 
+    {
+        font-size: 32px;
+    }
+    .hero> :nth-child(2) 
+    {
+        font-size: 18px;
+    }
+    .hero> :nth-child(3) 
+    {
+        font-size: 18px;
+    }
+ 
+    .sectext1 div:first-child
+    {
+        font-size: 32px;
+    }
+    .sectext1 div:nth-child(2)
+    {
+        font-size: 18px;
+    }
+    .faq h2 
+    {
+        font-size: 32px;
+    }
+    .login
+    {
+        font-size: 18px;
+    }
+    input {
+        padding: 16px 110px 16px 13px;
+    }
+    .main input {
+        padding: 16px 110px 16px 13px;
+    }
+    .faqbox {
+        font-size: 18px;
+    }
+    .question a 
+    {
+        font-size: 12px;
+    }
+    .footer-items
+    {
+        align-items: flex-start;
+    }
+}
